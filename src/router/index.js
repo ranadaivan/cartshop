@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import ShopApp from '../views/shopApp.vue';
+import shopCart from '../views/shopCart.vue';
 import loginPage from '../views/loginPage.vue';
 
 const routes = [
     { 
         path: '/shop', 
         name: 'shop', 
-        component: ShopApp,  
+        component: shopCart,  
         meta: { requiresAuth: true }
     },
 
