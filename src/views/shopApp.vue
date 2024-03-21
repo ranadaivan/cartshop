@@ -9,7 +9,7 @@
           <th></th>
         </tr>
           <itemList itemName="GTX 1050TI" :itemPrice="5000" @addCart="addToArray" />
-          <itemList itemName="GTX 1660TI" :itemPrice="15000" @addCart="addToArray" />
+          <itemList itemName="GTX 166TI" :itemPrice="15000" @addCart="addToArray" />
           <itemList itemName="RTX 3090TI" :itemPrice="80000" @addCart="addToArray" />
           <itemList itemName="RTX 4090TI" :itemPrice="100000" @addCart="addToArray" />
       </table>
